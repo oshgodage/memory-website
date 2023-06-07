@@ -10,7 +10,7 @@ app.use(cors())
 const postRoutes = require('./routes/posts');
 app.use('/memory', postRoutes);
 
-const CONNECTION_URL = 'mongodb+srv://Amazona:VinPeter29@cluster0.i9kvjke.mongodb.net/memoryDb?retryWrites=true&w=majority'
+const CONNECTION_URL = ''
 const PORT =5000;
 mongoose.
         connect(CONNECTION_URL,{ useUnifiedTopology: true, useNewUrlParser: true })
